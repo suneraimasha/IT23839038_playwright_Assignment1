@@ -1,0 +1,38 @@
+# IT23839038 - ITPM Assignment 1 Automation Project
+
+This repository contains the files related to IT3040 ITPM Assignment 1 - Option 1.
+
+The main purpose of this project is to test the Chat Sinhala transliteration function in the Pixelssuite Chat Translator website. The website converts chat-style Singlish input into Sinhala text. In this assignment, different Singlish sentences are tested to check whether the system gives the expected Sinhala output or not.
+
+## Website Tested
+
+https://www.pixelssuite.com/chat-translator
+
+## Assignment Option
+
+Option 1 - Transliteration Accuracy Testing
+
+## Files Included
+
+- `Assignment 1 - Test cases.xlsx`  
+  This Excel file contains the test cases used for the assignment. It includes the test case ID, input length type, Singlish input, expected Sinhala output, actual output, status, Singlish input type covered, and evidence/rationale.
+
+- `test_automation.py`  
+  This is the Playwright automation script used to run the test cases on the Pixelssuite Chat Translator website.
+
+## Tools and Technologies Used
+
+- Python
+- Playwright
+- OpenPyXL
+- Google Chrome / Chromium
+- Microsoft Excel
+
+## How to Install Required Libraries
+
+Before running the automation script, install the required Python libraries using the following commands:
+
+```bash
+python -m pip install -U pip
+python -m pip install playwright openpyxl
+python -m playwright install
